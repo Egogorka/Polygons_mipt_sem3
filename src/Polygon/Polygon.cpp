@@ -11,3 +11,8 @@ Polygon::Polygon(Dot *in, int size)
         dots[i] = in[i];
     }
 }
+
+Polygon::~Polygon() {
+    delete [] dots;
+}
+

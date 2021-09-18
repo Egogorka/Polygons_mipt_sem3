@@ -14,6 +14,7 @@ protected:
 
 public:
     Polygon(Dot* in, int size);
+    ~Polygon();
 
     float perimeter();
 };
