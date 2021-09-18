@@ -9,6 +9,7 @@
 
 class Segment: public Polygon {
     explicit Segment(Dot* in);
+    Segment(Dot& A, Dot &B);
 };
 
 
