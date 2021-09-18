@@ -13,7 +13,7 @@ protected:
     Dot* dots;
 
 public:
-    Polygon(Dots* in, int size);
+    Polygon(Dot* in, int size);
 
     float perimeter();
 };

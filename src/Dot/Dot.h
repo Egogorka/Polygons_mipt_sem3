@@ -11,6 +11,9 @@ struct Dot {
     float y;
 
     Dot(float x, float y);
+    Dot();
+
+    Dot& operator= (const Dot& other);
 };
 
 
