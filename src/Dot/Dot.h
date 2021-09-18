@@ -14,7 +14,10 @@ struct Dot {
     Dot();
 
     Dot& operator= (const Dot& other);
+
+    friend float distance(Dot& a, Dot& b);
 };
+
 
 
 #endif //POLYGONS_MIPT_SEM3_DOT_H

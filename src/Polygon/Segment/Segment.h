@@ -7,8 +7,8 @@
 
 #include "Polygon/Polygon.h"
 
-class Segment: public {
-    Segment(Dot* in);
+class Segment: public Polygon {
+    explicit Segment(Dot* in);
 };
 
 

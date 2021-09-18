@@ -3,7 +3,6 @@
 //
 
 #include "Polygon.h"
-#include <cmath>
 
 Polygon::Polygon()
 : n(0), dots(nullptr) {}
@@ -20,15 +19,12 @@ Polygon::~Polygon() {
     delete [] dots;
 }
 
-float distance(Dot& a, Dot& b){
-    return sqrtf((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-b.y));
-}
-
 float Polygon::perimeter() {
     float out = 0;
     for(unsigned i=1; i<n; ++i){
         out += distance(dots[i-1],dots[i]);
     }
+    out += distance(dots[n-1],dots[0]);
     return out;
 }
 

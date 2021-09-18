@@ -3,3 +3,6 @@
 //
 
 #include "Segment.h"
+
+Segment::Segment(Dot *in)
+: Polygon(in, 2) {}
