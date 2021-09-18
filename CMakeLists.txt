@@ -16,3 +16,5 @@ add_executable(Polygons_mipt_sem3
         src/Polygon/Polygon.cpp
         src/Polygon/Polygon.h
         )
+
+include_directories(src)
