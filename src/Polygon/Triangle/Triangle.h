@@ -5,9 +5,17 @@
 #ifndef POLYGONS_MIPT_SEM3_TRIANGLE_H
 #define POLYGONS_MIPT_SEM3_TRIANGLE_H
 
+#include "Polygon/Polygon.h"
 
-class Triangle {
+class Triangle: public Polygon {
+private:
 
+public:
+    Triangle(Dot* in);
+    Triangle(Dot A, Dot B, Dot C);
+
+    float height(int dot_num);
+    float area();
 };
 
 
