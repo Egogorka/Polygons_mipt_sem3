@@ -5,9 +5,10 @@
 #ifndef POLYGONS_MIPT_SEM3_SEGMENT_H
 #define POLYGONS_MIPT_SEM3_SEGMENT_H
 
+#include "Polygon/Polygon.h"
 
-class Segment {
-
+class Segment: public {
+    Segment(Dot* in);
 };
 
 

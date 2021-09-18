@@ -5,6 +5,9 @@
 #include "Polygon.h"
 #include <cmath>
 
+Polygon::Polygon()
+: n(0), dots(nullptr) {}
+
 Polygon::Polygon(Dot *in, int size)
 :n(size), dots(nullptr) {
     dots = new Dot[size]();
@@ -18,7 +21,7 @@ Polygon::~Polygon() {
 }
 
 float distance(Dot& a, Dot& b){
-    return sqrtf((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-b.y) );
+    return sqrtf((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-b.y));
 }
 
 float Polygon::perimeter() {

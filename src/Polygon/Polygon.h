@@ -13,6 +13,8 @@ protected:
     Dot* dots;
 
 public:
+    Polygon();
+
     Polygon(Dot* in, int size);
     ~Polygon();
 
