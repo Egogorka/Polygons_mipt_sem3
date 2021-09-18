@@ -3,3 +3,5 @@
 //
 
 #include "Dot.h"
+
+Dot::Dot(float x, float y):x(x), y(y) {}

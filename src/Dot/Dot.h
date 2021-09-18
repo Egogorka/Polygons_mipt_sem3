@@ -6,8 +6,11 @@
 #define POLYGONS_MIPT_SEM3_DOT_H
 
 
-class Dot {
+struct Dot {
+    float x;
+    float y;
 
+    Dot(float x, float y);
 };
 
 
