@@ -11,8 +11,9 @@ class Triangle: public Polygon {
 private:
 
 public:
+    Triangle();
     Triangle(Dot* in);
-    Triangle(Dot A, Dot B, Dot C);
+    Triangle(Dot &A, Dot &B, Dot &C);
 
     float height(int dot_num);
     float area();

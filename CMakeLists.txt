@@ -15,6 +15,6 @@ add_executable(Polygons_mipt_sem3
         src/Polygon/Quadrilateral/Quadrilateral.h
         src/Polygon/Polygon.cpp
         src/Polygon/Polygon.h
-        )
+        src/Polygon/Triangle/Rect_triangle/Rect_triangle.cpp src/Polygon/Triangle/Rect_triangle/Rect_triangle.h)
 
 include_directories(src)
