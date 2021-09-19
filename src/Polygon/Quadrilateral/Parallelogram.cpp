@@ -5,7 +5,6 @@ class Parallelogram: public Trapezoid
 {
 public:
     float angle;
-public:
     Parallelogram(Dot* in, int size, float par_size1, float par_size1, float h,float angle_in ): Trapezoid( in,  size,  par_size1,  par_size2,  h), angle(angle_in){}
     float diag length()
     {
