@@ -7,12 +7,12 @@
 
 #include "Polygon/Triangle/Triangle.h"
 
-class Rect_triangle: Triangle{
+class Rect_triangle: public Triangle{
 private:
     float a, b;
 public:
     Rect_triangle(Dot* in);
-    Rect_triangle(Dot &A, Dot &B, Dot &C);
+    Rect_triangle(Dot A, Dot B, Dot C);
     Rect_triangle(float a, float b);
 };
 
