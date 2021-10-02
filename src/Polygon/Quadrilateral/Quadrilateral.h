@@ -4,9 +4,11 @@
 
 #ifndef POLYGONS_MIPT_SEM3_QUADRILATERAL_H
 #define POLYGONS_MIPT_SEM3_QUADRILATERAL_H
+#include "Polygon/Polygon.h"
 
+class Quadrilateral:public Polygon {
 
-class Quadrilateral {
+    Quadrilateral(Dot* in, int size);
 
 };
 

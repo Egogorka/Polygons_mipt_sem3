@@ -3,3 +3,5 @@
 //
 
 #include "Quadrilateral.h"
+
+Quadrilateral::Quadrilateral(Dot *in, int size):Polygon(in, size) {}
