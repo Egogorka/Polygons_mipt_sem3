@@ -5,7 +5,6 @@
 #ifndef POLYGONS_MIPT_SEM3_DOT_H
 #define POLYGONS_MIPT_SEM3_DOT_H
 
-
 struct Dot {
     float x;
     float y;
